@@ -1,0 +1,11 @@
+openai
+transformers
+sentence-transformers
+faiss-cpu
+streamlit
+pandas
+scikit-learn
+torch
+pydantic
+fastapi
+uvicorn
