@@ -112,7 +112,7 @@ streamlit run src/interface/app.py
 
 ---
 ## Contributors
-- **Your Name** – Developer
+- **Rushikesh Phadtare** – Developer
 - **Arogo AI Team** – Project Assignment
 
 ---
