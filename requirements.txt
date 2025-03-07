@@ -9,3 +9,16 @@ torch
 pydantic
 fastapi
 uvicorn
+nltk==3.8.1
+spacy==3.7.2
+pandas>=2.0.0
+bitsandbytes>=0.43.0
+accelerate>=0.29.0
+pytest
+pytest-mock
+python-dotenv
+fitz
+PyMuPDF
+watchdog
+logging
+hashlib

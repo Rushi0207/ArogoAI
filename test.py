@@ -1,22 +1,32 @@
-import transformers
-import torch
+"""Run this model in Python
 
-model_id = "meta-llama/Meta-Llama-3.1-8B-Instruct"
+> pip install openai
+"""
+import os
+from openai import OpenAI
 
-pipeline = transformers.pipeline(
-    "text-generation",
-    model=model_id,
-    model_kwargs={"torch_dtype": torch.bfloat16},
-    device_map="auto",
+# To authenticate with the model you will need to generate a personal access token (PAT) in your GitHub settings. 
+# Create your PAT token by following instructions here: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
+client = OpenAI(
+    base_url="https://models.inference.ai.azure.com",
+    api_key=os.getenv("OPENAI_API_KEY"),
 )
 
-messages = [
-    {"role": "system", "content": "You are a pirate chatbot who always responds in pirate speak!"},
-    {"role": "user", "content": "Who are you?"},
-]
-
-outputs = pipeline(
-    messages,
-    max_new_tokens=256,
+response = client.chat.completions.create(
+    messages=[
+        {
+            "role": "system",
+            "content": "",
+        },
+        {
+            "role": "user",
+            "content": "What is the capital of France?",
+        }
+    ],
+    model="gpt-4o",
+    temperature=1,
+    max_tokens=4096,
+    top_p=1
 )
-print(outputs[0]["generated_text"][-1])
+
+print(response.choices[0].message.content)

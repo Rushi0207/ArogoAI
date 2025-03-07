@@ -1,0 +1,276 @@
+2025-03-07 04:19:34,657 - ERROR - gemini Error: 'CacheManager' object has no attribute '_hash_prompt' | Prompt: '
+    You are an expert software engineer. Generate...'
+2025-03-07 04:28:17,081 - ERROR - gemini Error: 'CacheManager' object has no attribute '_hash_prompt' | Prompt: '
+    You are an expert software engineer. Generate...'
+2025-03-07 04:30:04,783 - INFO - gemini Response: 4.52s | Chars: 1584
+2025-03-07 04:39:55,565 - INFO - gemini Response: 3.57s | Chars: 771
+2025-03-07 04:40:34,469 - INFO - gemini Response: 8.37s | Chars: 5097
+2025-03-07 04:40:34,787 - ERROR - gemini Error: The size of tensor a (1115) must match the size of tensor b (512) at non-singleton dimension 1 | Prompt: 'what is ai...'
+2025-03-07 04:40:55,910 - INFO - gemini Response: 5.65s | Chars: 4257
+2025-03-07 04:40:55,931 - ERROR - gemini Error: The size of tensor a (990) must match the size of tensor b (512) at non-singleton dimension 1 | Prompt: 'what is ai...'
+2025-03-07 04:45:09,365 - INFO - gemini Response: 7.41s | Chars: 4245
+2025-03-07 04:45:09,391 - ERROR - gemini Error: The size of tensor a (908) must match the size of tensor b (512) at non-singleton dimension 1 | Prompt: 'what is ai...'
+2025-03-07 09:26:08,465 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 09:26:08,467 - INFO - Retrying request to /chat/completions in 0.440586 seconds
+2025-03-07 09:26:09,216 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 09:26:09,217 - INFO - Retrying request to /chat/completions in 0.853494 seconds
+2025-03-07 09:26:10,383 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 09:26:10,421 - INFO - openai Response: 3.32s | Chars: 324
+2025-03-07 09:26:32,971 - INFO - gemini Response: 1.14s | Chars: 89
+2025-03-07 09:27:43,457 - INFO - gemini Response: 2.42s | Chars: 1420
+2025-03-07 09:31:23,756 - INFO - gemini Response: 0.93s | Chars: 85
+2025-03-07 09:41:22,071 - INFO - gemini Response: 9.02s | Chars: 5128
+2025-03-07 09:41:22,108 - ERROR - gemini Error: The size of tensor a (1097) must match the size of tensor b (512) at non-singleton dimension 1 | Prompt: 'what is ai...'
+2025-03-07 09:42:05,793 - INFO - gemini Response: 2.19s | Chars: 1044
+2025-03-07 09:43:54,696 - INFO - gemini Response: 2.97s | Chars: 1619
+2025-03-07 09:43:54,735 - ERROR - gemini Error: The size of tensor a (541) must match the size of tensor b (512) at non-singleton dimension 1 | Prompt: '
+    You are an expert software engineer. Generate...'
+2025-03-07 09:44:25,250 - INFO - gemini Response: 10.35s | Chars: 9378
+2025-03-07 09:44:25,332 - ERROR - gemini Error: The size of tensor a (1977) must match the size of tensor b (512) at non-singleton dimension 1 | Prompt: 'what ai and its benefits...'
+2025-03-07 09:47:49,215 - INFO - gemini Response: 7.14s | Chars: 3375
+2025-03-07 09:47:49,250 - ERROR - gemini Error: The size of tensor a (717) must match the size of tensor b (512) at non-singleton dimension 1 | Prompt: 'what is ai...'
+2025-03-07 09:49:08,668 - INFO - gemini Response: 5.97s | Chars: 3729
+2025-03-07 09:49:08,706 - ERROR - gemini Error: The size of tensor a (809) must match the size of tensor b (512) at non-singleton dimension 1 | Prompt: 'what is ai...'
+2025-03-07 09:49:29,866 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 09:49:29,867 - INFO - Retrying request to /chat/completions in 0.487679 seconds
+2025-03-07 09:49:30,788 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 09:49:30,789 - INFO - Retrying request to /chat/completions in 0.810381 seconds
+2025-03-07 09:49:31,909 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 09:49:31,926 - INFO - openai Response: 3.44s | Chars: 324
+2025-03-07 10:10:51,490 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 10:10:51,501 - INFO - Retrying request to /chat/completions in 0.429802 seconds
+2025-03-07 10:10:52,224 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 10:10:52,225 - INFO - Retrying request to /chat/completions in 0.820186 seconds
+2025-03-07 10:10:53,326 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 10:10:53,362 - INFO - openai Response: 2.71s | Chars: 324
+2025-03-07 10:11:09,245 - INFO - gemini Response: 4.64s | Chars: 3380
+2025-03-07 11:13:33,207 - INFO - gemini Response: 2.13s | Chars: 689
+2025-03-07 11:15:28,988 - INFO - gemini Response: 1.79s | Chars: 387
+2025-03-07 11:20:03,885 - INFO - gemini Response: 2.80s | Chars: 1078
+2025-03-07 11:20:48,121 - INFO - gemini Response: 2.01s | Chars: 639
+2025-03-07 11:21:11,048 - INFO - gemini Response: 1.38s | Chars: 613
+2025-03-07 12:31:06,256 - ERROR - openai Error: name 'OpenAI' is not defined | Prompt: 'what is ai...'
+2025-03-07 12:32:57,896 - ERROR - openai Error: 'module' object is not callable | Prompt: 'what is ai...'
+2025-03-07 12:38:07,726 - ERROR - openai Error: 'module' object is not callable | Prompt: 'what is ai...'
+2025-03-07 12:42:52,668 - ERROR - openai Error: 'module' object is not callable | Prompt: 'what is ai...'
+2025-03-07 12:48:57,424 - ERROR - openai Error: 'module' object is not callable | Prompt: 'what is ai...'
+2025-03-07 12:53:08,480 - ERROR - openai Error: 'module' object is not callable | Prompt: 'what is ai...'
+2025-03-07 12:56:18,733 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:56:18,745 - INFO - openai Response: 5.98s | Chars: 1484
+2025-03-07 12:57:33,435 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:57:33,442 - INFO - openai Response: 7.54s | Chars: 3024
+2025-03-07 12:58:41,198 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 12:58:41,200 - INFO - openai Response: 3.46s | Chars: 1158
+2025-03-07 12:59:04,159 - INFO - gemini Response: 1.98s | Chars: 545
+2025-03-07 13:30:49,404 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 13:30:49,450 - INFO - openai Response: 2.20s | Chars: 248
+2025-03-07 13:39:28,261 - INFO - gemini Response: 5.91s | Chars: 3012
+2025-03-07 14:14:46,397 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-264' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Prograsm\New folder\Arogo-AI\venv\Lib\site-packages\tornado\websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Prograsm\New folder\Arogo-AI\venv\Lib\site-packages\tornado\websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Prograsm\New folder\Arogo-AI\venv\Lib\site-packages\tornado\websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-03-07 14:15:04,356 - INFO - gemini Response: 0.52s | Chars: 275
+2025-03-07 14:17:41,273 - INFO - gemini Response: 0.50s | Chars: 275
+2025-03-07 14:20:19,158 - INFO - gemini Response: 0.59s | Chars: 275
+2025-03-07 14:31:17,811 - INFO - gemini Response: 0.55s | Chars: 275
+2025-03-07 14:32:13,839 - INFO - gemini Response: 1.14s | Chars: 275
+2025-03-07 14:33:23,455 - INFO - gemini Response: 1.21s | Chars: 275
+2025-03-07 14:40:27,998 - INFO - gemini Response: 0.64s | Chars: 275
+2025-03-07 14:44:13,872 - INFO - gemini Response: 0.39s | Chars: 275
+2025-03-07 14:47:57,563 - INFO - gemini Response: 1.11s | Chars: 275
+2025-03-07 14:51:46,673 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 14:51:46,715 - INFO - openai Response: 14.04s | Chars: 2825
+2025-03-07 14:51:47,409 - ERROR - openai Error: The size of tensor a (514) must match the size of tensor b (512) at non-singleton dimension 1 | Prompt: 'what is genai...'
+2025-03-07 14:52:16,790 - INFO - gemini Response: 0.36s | Chars: 275
+2025-03-07 14:53:08,975 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 14:53:08,985 - INFO - openai Response: 26.44s | Chars: 2993
+2025-03-07 14:53:09,428 - ERROR - openai Error: The size of tensor a (514) must match the size of tensor b (512) at non-singleton dimension 1 | Prompt: 'what is genai...'
+2025-03-07 14:54:00,785 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 14:54:00,797 - INFO - openai Response: 28.74s | Chars: 3999
+2025-03-07 14:54:01,425 - ERROR - openai Error: The size of tensor a (514) must match the size of tensor b (512) at non-singleton dimension 1 | Prompt: 'what is ai...'
+2025-03-07 14:54:41,119 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 14:54:41,128 - INFO - openai Response: 12.89s | Chars: 4387
+2025-03-07 14:54:41,593 - ERROR - openai Error: The size of tensor a (514) must match the size of tensor b (512) at non-singleton dimension 1 | Prompt: 'what is artificial inteligence...'
+2025-03-07 14:55:25,152 - INFO - gemini Response: 0.38s | Chars: 275
+2025-03-07 15:05:48,475 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 15:05:48,484 - INFO - openai Response: 11.75s | Chars: 3663
+2025-03-07 15:05:48,875 - ERROR - openai Error: The size of tensor a (514) must match the size of tensor b (512) at non-singleton dimension 1 | Prompt: 'what is artificial inteligence...'
+2025-03-07 15:10:40,947 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 15:10:41,008 - INFO - openai Response: 17.77s | Chars: 3231
+2025-03-07 15:11:48,393 - INFO - gemini Response: 8.67s | Chars: 6741
+2025-03-07 15:48:23,453 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 15:48:23,464 - INFO - openai Response: 9.15s | Chars: 4272
+2025-03-07 15:49:06,921 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 15:49:06,928 - INFO - openai Response: 8.50s | Chars: 1950
+2025-03-07 15:49:42,586 - INFO - gemini Response: 2.10s | Chars: 1071
+2025-03-07 15:51:47,662 - INFO - gemini Response: 3.42s | Chars: 1389
+2025-03-07 15:52:10,086 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 15:52:10,088 - INFO - openai Response: 8.76s | Chars: 23432025-03-07 19:23:09,239 - INFO - Retrying request to /chat/completions in 0.451482 seconds
+2025-03-07 19:23:21,596 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 19:23:21,637 - INFO - openai Response: 19.18s | Chars: 3917
+2025-03-07 19:24:50,626 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 19:24:50,632 - INFO - openai Response: 3.97s | Chars: 1176
+2025-03-07 19:25:26,480 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 19:25:26,486 - INFO - openai Response: 2.00s | Chars: 217
+2025-03-07 19:26:49,151 - INFO - Retrying request to /chat/completions in 0.475689 seconds
+2025-03-07 19:26:54,876 - INFO - Retrying request to /chat/completions in 0.976605 seconds
+2025-03-07 19:27:04,191 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 19:27:04,198 - INFO - openai Response: 21.47s | Chars: 79
+2025-03-07 19:28:35,707 - INFO - Retrying request to /chat/completions in 0.388609 seconds
+2025-03-07 19:28:39,863 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 19:28:39,867 - INFO - openai Response: 10.83s | Chars: 45
+2025-03-07 19:29:10,182 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 19:29:10,187 - INFO - openai Response: 1.90s | Chars: 31
+2025-03-07 19:29:42,740 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:29:42,741 - INFO - Retrying request to /chat/completions in 0.490533 seconds
+2025-03-07 19:29:43,738 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:29:43,746 - INFO - Retrying request to /chat/completions in 0.891947 seconds
+2025-03-07 19:29:45,147 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:29:45,150 - ERROR - openai Error: name 'openai' is not defined | Prompt: '
+    You are an expert software engineer. Generate...'
+2025-03-07 19:29:58,873 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:29:58,874 - INFO - Retrying request to /chat/completions in 0.438887 seconds
+2025-03-07 19:29:59,685 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:29:59,686 - INFO - Retrying request to /chat/completions in 0.844474 seconds
+2025-03-07 19:30:00,954 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:30:00,967 - ERROR - openai Error: name 'openai' is not defined | Prompt: '
+    You are an expert software engineer. Generate...'
+2025-03-07 19:33:15,053 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:33:15,054 - INFO - Retrying request to /chat/completions in 0.495286 seconds
+2025-03-07 19:33:15,932 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:33:15,934 - INFO - Retrying request to /chat/completions in 0.825512 seconds
+2025-03-07 19:33:17,334 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:33:17,339 - ERROR - openai Error: name 'openai' is not defined | Prompt: '
+    You are an expert software engineer. Generate...'
+2025-03-07 19:33:22,358 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:33:22,361 - INFO - Retrying request to /chat/completions in 0.489677 seconds
+2025-03-07 19:33:23,198 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:33:23,199 - INFO - Retrying request to /chat/completions in 0.864032 seconds
+2025-03-07 19:33:24,377 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:33:24,381 - ERROR - openai Error: name 'openai' is not defined | Prompt: '
+    You are an expert software engineer. Generate...'
+2025-03-07 19:34:57,443 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:34:57,445 - INFO - Retrying request to /chat/completions in 0.399631 seconds
+2025-03-07 19:34:58,198 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:34:58,200 - INFO - Retrying request to /chat/completions in 0.783930 seconds
+2025-03-07 19:34:59,303 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:34:59,309 - ERROR - openai Error: name 'openai' is not defined | Prompt: '
+    You are an expert software engineer. Generate...'
+2025-03-07 19:39:15,731 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:39:15,731 - INFO - Retrying request to /chat/completions in 0.377914 seconds
+2025-03-07 19:39:16,444 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:39:16,445 - INFO - Retrying request to /chat/completions in 0.869784 seconds
+2025-03-07 19:39:17,605 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:39:17,612 - ERROR - openai Error: name 'openai' is not defined | Prompt: '
+    You are an expert software engineer. Generate...'
+2025-03-07 19:39:39,176 - INFO - gemini Response: 3.31s | Chars: 1827
+2025-03-07 19:40:36,392 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:40:36,394 - INFO - Retrying request to /chat/completions in 0.445537 seconds
+2025-03-07 19:40:37,221 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:40:37,236 - INFO - Retrying request to /chat/completions in 0.864273 seconds
+2025-03-07 19:40:38,479 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:40:38,485 - ERROR - openai Error: name 'openai' is not defined | Prompt: '
+    You are an expert software engineer. Generate...'
+2025-03-07 19:42:06,373 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:42:06,374 - INFO - Retrying request to /chat/completions in 0.410698 seconds
+2025-03-07 19:42:07,125 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:42:07,126 - INFO - Retrying request to /chat/completions in 0.841914 seconds
+2025-03-07 19:42:08,281 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:42:08,286 - ERROR - openai Error: name 'openai' is not defined | Prompt: '
+    You are an expert software engineer. Generate...'
+2025-03-07 19:42:53,492 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:42:53,493 - INFO - Retrying request to /chat/completions in 0.388574 seconds
+2025-03-07 19:42:54,336 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:42:54,338 - INFO - Retrying request to /chat/completions in 0.910795 seconds
+2025-03-07 19:42:55,595 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:42:55,600 - ERROR - openai Error: name 'openai' is not defined | Prompt: '
+    You are a senior software engineer reviewing ...'
+2025-03-07 19:43:08,017 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:43:08,018 - INFO - Retrying request to /chat/completions in 0.380777 seconds
+2025-03-07 19:43:08,780 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:43:08,781 - INFO - Retrying request to /chat/completions in 0.762831 seconds
+2025-03-07 19:43:09,887 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:43:09,891 - ERROR - openai Error: name 'openai' is not defined | Prompt: '
+    You are a senior software engineer reviewing ...'
+2025-03-07 19:43:33,556 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:43:33,557 - INFO - Retrying request to /chat/completions in 0.482478 seconds
+2025-03-07 19:43:34,435 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:43:34,436 - INFO - Retrying request to /chat/completions in 0.901362 seconds
+2025-03-07 19:43:35,696 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:43:35,700 - ERROR - openai Error: name 'openai' is not defined | Prompt: 'what is ai...'
+2025-03-07 19:48:10,286 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:48:10,291 - INFO - Retrying request to /chat/completions in 0.381751 seconds
+2025-03-07 19:48:11,086 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:48:11,088 - INFO - Retrying request to /chat/completions in 0.894685 seconds
+2025-03-07 19:48:12,277 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:48:12,289 - ERROR - openai Error: name 'openai' is not defined | Prompt: 'what is ai...'
+2025-03-07 19:51:38,490 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:51:38,500 - INFO - Retrying request to /chat/completions in 0.429178 seconds
+2025-03-07 19:51:39,254 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:51:39,255 - INFO - Retrying request to /chat/completions in 0.909258 seconds
+2025-03-07 19:51:40,484 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:51:40,489 - ERROR - openai Error: name 'openai' is not defined | Prompt: 'what is ai...'
+2025-03-07 19:52:51,832 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:52:51,832 - INFO - Retrying request to /chat/completions in 0.436436 seconds
+2025-03-07 19:52:52,681 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:52:52,681 - INFO - Retrying request to /chat/completions in 0.754061 seconds
+2025-03-07 19:52:53,765 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:52:53,767 - ERROR - openai Error: name 'openai' is not defined | Prompt: 'what is ai...'
+2025-03-07 19:53:31,844 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:53:31,845 - INFO - Retrying request to /chat/completions in 0.432471 seconds
+2025-03-07 19:53:32,637 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:53:32,637 - INFO - Retrying request to /chat/completions in 0.892484 seconds
+2025-03-07 19:53:33,846 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 19:53:33,850 - ERROR - openai Error: name 'openai' is not defined | Prompt: 'what is ai...'
+2025-03-07 19:54:56,930 - INFO - gemini Response: 10.66s | Chars: 5443
+2025-03-07 20:07:18,935 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 20:07:18,935 - INFO - Retrying request to /chat/completions in 0.414959 seconds
+2025-03-07 20:07:19,654 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 20:07:19,654 - INFO - Retrying request to /chat/completions in 0.877046 seconds
+2025-03-07 20:07:20,900 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 20:07:20,903 - ERROR - openai Error: name 'openai' is not defined | Prompt: 'what is ai...'
+2025-03-07 20:09:11,859 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 20:09:11,860 - INFO - Retrying request to /chat/completions in 0.421333 seconds
+2025-03-07 20:09:12,571 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 20:09:12,573 - INFO - Retrying request to /chat/completions in 0.821674 seconds
+2025-03-07 20:09:13,766 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 20:09:13,770 - ERROR - openai Error: name 'openai' is not defined | Prompt: 'what is ai...'
+2025-03-07 20:10:45,966 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 20:10:45,967 - INFO - Retrying request to /chat/completions in 0.407177 seconds
+2025-03-07 20:10:46,735 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 20:10:46,735 - INFO - Retrying request to /chat/completions in 0.760883 seconds
+2025-03-07 20:10:47,819 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 20:10:47,823 - ERROR - openai Error: name 'openai' is not defined | Prompt: 'what is ai...'
+2025-03-07 20:12:34,621 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 20:12:34,621 - INFO - Retrying request to /chat/completions in 0.388956 seconds
+2025-03-07 20:12:35,318 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 20:12:35,320 - INFO - Retrying request to /chat/completions in 0.901951 seconds
+2025-03-07 20:12:36,548 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 20:12:36,550 - ERROR - openai Error: name 'openai' is not defined | Prompt: 'what is ai...'
+2025-03-07 20:15:28,671 - INFO - gemini Response: 4.57s | Chars: 3767
+2025-03-07 20:15:53,771 - INFO - gemini Response: 2.23s | Chars: 797
+2025-03-07 20:16:13,569 - INFO - gemini Response: 1.16s | Chars: 115
+2025-03-07 20:16:44,548 - INFO - gemini Response: 0.90s | Chars: 96
+2025-03-07 20:17:24,070 - INFO - gemini Response: 1.37s | Chars: 32
+2025-03-07 20:17:41,378 - INFO - gemini Response: 1.35s | Chars: 31
+2025-03-07 20:17:58,141 - INFO - gemini Response: 2.16s | Chars: 1018
+2025-03-07 20:18:31,448 - INFO - gemini Response: 6.81s | Chars: 4953
+2025-03-07 20:20:11,899 - INFO - gemini Response: 4.92s | Chars: 1126
+2025-03-07 20:20:46,466 - INFO - gemini Response: 1.87s | Chars: 602
+2025-03-07 20:21:27,964 - INFO - gemini Response: 1.37s | Chars: 125
+2025-03-07 20:22:32,632 - INFO - gemini Response: 1.16s | Chars: 276
+2025-03-07 21:19:21,037 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 21:19:21,046 - INFO - Retrying request to /chat/completions in 0.458843 seconds
+2025-03-07 21:19:23,338 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 21:19:23,339 - INFO - Retrying request to /chat/completions in 0.845203 seconds
+2025-03-07 21:19:26,044 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-07 21:19:26,057 - ERROR - openai Error: name 'openai' is not defined | Prompt: 'what is ai...'

@@ -1,39 +1,35 @@
-import google.generativeai as genai
-import openai
-import os
-from dotenv import load_dotenv
+from src.models.llm_wrapper import LLMWrapper
 
-# Load API keys from .env
-load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+def extract_entities(text, provider):
+    llm = LLMWrapper(provider)
+    prompt = f"""
+    Identify named entities in the following text and classify them as:
+    
+    - Person
+    - Organization
+    - Location
+    - Date/Time
+    - Event
+    - Product
+    - Law/Regulation
+    - Work of Art (Book, Movie, Song, etc.)
+    - Medical Term
+    - Currency (Money)
+    - Other (if none of the above apply)
 
-# Configure Gemini API
-genai.configure(api_key=GEMINI_API_KEY)
+    Text: "{text}"
 
-def extract_entities(text, provider="gemini"):
-    """Extracts named entities using the selected provider (Gemini or OpenAI)"""
-    if provider == "openai":
-        return _openai_ner(text)
-    elif provider == "gemini":
-        return _gemini_ner(text)
-    else:
-        return "Invalid provider selected."
+    Format the response as a well-structured **text description** like this:
 
-def _openai_ner(text):
-    """Named Entity Recognition using OpenAI"""
-    try:
-        client = openai.OpenAI(api_key=OPENAI_API_KEY)
-        response = client.chat.completions.create(
-            model="gpt-3.5-turbo",
-            messages=[{"role": "user", "content": f"Extract named entities from this text: {text}"}]
-        )
-        return response.choices[0].message.content
-    except openai.OpenAIError as e:
-        return f"OpenAI Error: {str(e)}"
+    "Named Entities Found:
+    - Elon Musk (Person)
+    - Tesla (Organization)
+    - Louvre (Location)
+    - Mona Lisa (Work of Art)
+    - GDPR (Law/Regulation)
 
-def _gemini_ner(text):
-    """Named Entity Recognition using Gemini"""
-    model = genai.GenerativeModel("gemini-2.0-flash")
-    response = model.generate_content(f"Extract named entities from this text: {text}")
-    return response.text
+    If **no named entities** are detected, return:
+    "No named entities detected in the given text."
+    """
+    
+    return llm.generate_response(prompt)
