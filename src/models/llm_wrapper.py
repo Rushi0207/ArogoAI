@@ -19,22 +19,22 @@ class LLMWrapper:
         self.openai_api_key = os.getenv("OPENAI_API_KEY")
         self.gemini_api_key = os.getenv("GEMINI_API_KEY")
         genai.configure(api_key=self.gemini_api_key)
-        # if self.provider == "huggingface":
-        #     model_name = "facebook/opt-125m"
-        #     quantization_config = BitsAndBytesConfig(
-        #         load_in_4bit=True,
-        #         bnb_4bit_quant_type="nf4",
-        #         bnb_4bit_compute_dtype=torch.float16
-        #     )
-        #     try:
-        #         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
-        #         self.model = AutoModelForCausalLM.from_pretrained(
-        #             model_name,
-        #             quantization_config=quantization_config,
-        #             device_map="auto"
-        #         )
-        #     except Exception as e:
-        #         raise RuntimeError(f"Hugging Face model loading failed: {str(e)}")
+        if self.provider == "huggingface":
+            model_name = "facebook/opt-125m"
+            quantization_config = BitsAndBytesConfig(
+                load_in_4bit=True,
+                bnb_4bit_quant_type="nf4",
+                bnb_4bit_compute_dtype=torch.float16
+            )
+            try:
+                self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+                self.model = AutoModelForCausalLM.from_pretrained(
+                    model_name,
+                    quantization_config=quantization_config,
+                    device_map="auto"
+                )
+            except Exception as e:
+                raise RuntimeError(f"Hugging Face model loading failed: {str(e)}")
         
     def generate_response(self, prompt):
         if self.moderator.is_toxic(prompt):
