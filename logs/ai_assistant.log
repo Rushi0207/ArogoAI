@@ -274,3 +274,9 @@ tornado.websocket.WebSocketClosedError
 2025-03-07 21:19:23,339 - INFO - Retrying request to /chat/completions in 0.845203 seconds
 2025-03-07 21:19:26,044 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
 2025-03-07 21:19:26,057 - ERROR - openai Error: name 'openai' is not defined | Prompt: 'what is ai...'
+2025-03-08 09:32:26,429 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-08 09:32:26,430 - INFO - Retrying request to /chat/completions in 0.468470 seconds
+2025-03-08 09:32:27,299 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-08 09:32:27,300 - INFO - Retrying request to /chat/completions in 0.848977 seconds
+2025-03-08 09:32:28,397 - INFO - HTTP Request: POST https://models.inference.ai.azure.com/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-08 09:32:28,416 - ERROR - openai Error: name 'openai' is not defined | Prompt: 'what is ai...'

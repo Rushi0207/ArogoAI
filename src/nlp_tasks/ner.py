@@ -1,6 +1,6 @@
 from src.models.llm_wrapper import LLMWrapper
 
-def extract_entities(text, provider):
+def extract_entities(text, provider="openai"):
     llm = LLMWrapper(provider)
     prompt = f"""
     Identify named entities in the following text and classify them as:

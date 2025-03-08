@@ -54,6 +54,7 @@ class LLMWrapper:
                 return f"(Cached) {cached_response}"
             print("provider: ",self.provider)
             if self.provider == "openai":
+                print("provider: ",self.provider)
                 response = self._openai_response(prompt)
             elif self.provider == "gemini":
                 response = self._gemini_response(prompt)

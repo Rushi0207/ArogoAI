@@ -1,6 +1,6 @@
 from src.models.llm_wrapper import LLMWrapper
 
-def analyze_sentiment(text, provider):
+def analyze_sentiment(text, provider="openai"):
     llm = LLMWrapper(provider)
     prompt = f"""
     Analyze the sentiment of the following text and classify it as Positive, Negative, or Neutral.
